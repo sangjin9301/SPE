@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4d6c22a-6b09-482a-81d6-670bac9db566" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala" afterPath="$PROJECT_DIR$/src/main/scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/preprocessforspe.iml" afterPath="$PROJECT_DIR$/.idea/modules/preprocessforspe.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/IndexMaker.scala" afterPath="$PROJECT_DIR$/src/main/scala/IndexMaker.scala" />
     </list>
@@ -59,8 +57,8 @@
       <file leaf-file-name="IndexMaker.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/IndexMaker.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="328" column="72" lean-forward="false" selection-start-line="328" selection-start-column="72" selection-end-line="328" selection-end-column="72" />
+            <state relative-caret-position="440">
+              <caret line="398" column="17" lean-forward="true" selection-start-line="398" selection-start-column="17" selection-end-line="398" selection-end-column="17" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -105,7 +103,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
@@ -126,7 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,8 +180,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516348529618</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="we have to implement Make index code">
+      <created>1518166738999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1518166738999</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -590,7 +595,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit. we have to implement csv file Accessing" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit. we have to implement csv file Accessing" />
+    <MESSAGE value="we have to implement Make index code" />
+    <option name="LAST_COMMIT_MESSAGE" value="we have to implement Make index code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -934,22 +940,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CandleChart.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Accessor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Direction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Start.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -966,10 +956,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Direction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Accessor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/IndexMaker.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="328" column="72" lean-forward="false" selection-start-line="328" selection-start-column="72" selection-end-line="328" selection-end-column="72" />
+        <state relative-caret-position="440">
+          <caret line="398" column="17" lean-forward="true" selection-start-line="398" selection-start-column="17" selection-end-line="398" selection-end-column="17" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
