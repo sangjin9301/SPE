@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4d6c22a-6b09-482a-81d6-670bac9db566" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/Direction.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala" afterPath="$PROJECT_DIR$/src/main/scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Accessor.scala" afterPath="$PROJECT_DIR$/src/main/scala/Accessor.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Candle.scala" afterPath="$PROJECT_DIR$/src/main/scala/Candle.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/IndexMaker.scala" afterPath="$PROJECT_DIR$/src/main/scala/IndexMaker.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Start.scala" afterPath="$PROJECT_DIR$/src/main/scala/Start.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +47,8 @@
       <file leaf-file-name="IndexMaker.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/IndexMaker.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="342">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -590,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518429604102</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Complete Implements write .csvfile">
+      <created>1518507618413</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1518507618413</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -646,7 +648,8 @@
     <MESSAGE value="Implements making index methods" />
     <MESSAGE value="todo - Candle set/get method (거래량, 거래대금, 전일대비)" />
     <MESSAGE value="todo - Candle set/get method (거래량, 거래대금, 전일대비) + writeMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="todo - Candle set/get method (거래량, 거래대금, 전일대비) + writeMethod" />
+    <MESSAGE value="Complete Implements write .csvfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Implements write .csvfile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1020,8 +1023,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/IndexMaker.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
